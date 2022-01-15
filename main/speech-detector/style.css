@@ -13,15 +13,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: none;
 }
 
 img {
     border-radius: 50%;
     border: 3px solid rgba(128, 128, 128, 0.568);
     box-shadow: 0px 5px 17px -7px rgba(255, 255, 255, 0.3);
+    transition: 0.1s ease;
 }
 
 .pfp-active {
-    box-shadow: 0px 5px 17px -7px rgba(47, 255, 57, 0.623);
+    box-shadow: 0px 5px 50px -7px rgba(47, 255, 57, 0.623);
     border: 3px solid rgb(47,255,57);
 }
